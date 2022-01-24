@@ -75,6 +75,6 @@ stage("End to End Tests") {
         sh "chmod +x ui-tests.sh"
         sh "./ui-tests.sh"
     }
-}
+} 
 
 
