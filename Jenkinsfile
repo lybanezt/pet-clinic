@@ -45,8 +45,7 @@ pipeline {
             }
         }
         
-            }
-}
+
         stage('Decide Deploy to Test'){
     when {
         branch 'master'
@@ -77,4 +76,5 @@ stage("End to End Tests") {
     }
 } 
 
-
+            }
+}
